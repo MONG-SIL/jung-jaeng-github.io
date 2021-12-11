@@ -1,0 +1,26 @@
+{
+  "name": "webprogramming-task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build"
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jung-Jaeng/jung-jaeng-github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jung-Jaeng/jung-jaeng-github.io/issues"
+  },
+  "homepage": "https://jung-jaeng.github.io/jung-jaeng-github.io/",
+  "dependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}
